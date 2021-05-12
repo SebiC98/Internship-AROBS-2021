@@ -2,14 +2,14 @@
 <settings>
     <StLinkDriver>
         <stlinkserialNo>066FFF495150807567063929</stlinkserialNo>
-        <stlinkfoundProbes>066CFF525750877267043860:066FFF495150807567063929:</stlinkfoundProbes>
+        <stlinkfoundProbes>066CFF525750877267043860:066EFF495150807567060928:066EFF555654725187084540:066FFF495150807567063929:</stlinkfoundProbes>
         <stlinkResetStyle>0</stlinkResetStyle>
         <stlinkResetStrategy>2</stlinkResetStrategy>
         <CStepIntDis>_ 0</CStepIntDis>
         <LeaveTargetRunning>_ 0</LeaveTargetRunning>
     </StLinkDriver>
     <DebugChecksum>
-        <Checksum>600175052</Checksum>
+        <Checksum>186341787</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>

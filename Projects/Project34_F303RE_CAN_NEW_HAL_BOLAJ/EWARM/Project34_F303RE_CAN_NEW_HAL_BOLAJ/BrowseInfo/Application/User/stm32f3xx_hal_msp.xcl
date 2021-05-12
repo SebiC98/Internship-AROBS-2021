@@ -1,25 +1,25 @@
-"C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\Src\stm32f3xx_hal_msp.c"
+"C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\Src\stm32f3xx_hal_msp.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\EWARM\Project34_F303RE_CAN_NEW_HAL_BOLAJ\BrowseInfo\Application\User\stm32f3xx_hal_msp.pbi.dep
+C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\EWARM\Project34_F303RE_CAN_NEW_HAL_BOLAJ\BrowseInfo\Application\User\stm32f3xx_hal_msp.pbi.dep
 -o
-C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\EWARM\Project34_F303RE_CAN_NEW_HAL_BOLAJ\BrowseInfo\Application\User\stm32f3xx_hal_msp.pbi
+C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\EWARM\Project34_F303RE_CAN_NEW_HAL_BOLAJ\BrowseInfo\Application\User\stm32f3xx_hal_msp.pbi
 -I
-C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\Src
+C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\Src
 -I
-C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\EWARM/../Inc\
+C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\EWARM/../Inc\
 -I
-C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\EWARM/../Drivers/STM32F3xx_HAL_Driver/Inc\
+C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\EWARM/../Drivers/STM32F3xx_HAL_Driver/Inc\
 -I
-C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\EWARM/../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy\
+C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\EWARM/../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy\
 -I
-C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\EWARM/../Drivers/CMSIS/Device/ST/STM32F3xx/Include\
+C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\EWARM/../Drivers/CMSIS/Device/ST/STM32F3xx/Include\
 -I
-C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\EWARM/../Drivers/CMSIS/Include\
+C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\EWARM/../Drivers/CMSIS/Include\
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\aarch32
 -I
@@ -27,15 +27,15 @@ C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c
 -I
-C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\Inc
+C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\Inc
 -I
-C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\Drivers\STM32F3xx_HAL_Driver\Inc
+C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\Drivers\STM32F3xx_HAL_Driver\Inc
 -I
-C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\Drivers\STM32F3xx_HAL_Driver\Inc\Legacy
+C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\Drivers\STM32F3xx_HAL_Driver\Inc\Legacy
 -I
-C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\Drivers\CMSIS\Device\ST\STM32F3xx\Include
+C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\Drivers\CMSIS\Device\ST\STM32F3xx\Include
 -I
-C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\Drivers\CMSIS\Include
+C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\Drivers\CMSIS\Include
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

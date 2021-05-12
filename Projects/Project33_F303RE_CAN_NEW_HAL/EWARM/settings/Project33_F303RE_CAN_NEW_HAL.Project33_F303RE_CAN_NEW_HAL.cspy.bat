@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project33_F303RE_CAN_NEW_HAL\EWARM\settings\Project33_F303RE_CAN_NEW_HAL.Project33_F303RE_CAN_NEW_HAL.general.xcl" --backend -f "C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project33_F303RE_CAN_NEW_HAL\EWARM\settings\Project33_F303RE_CAN_NEW_HAL.Project33_F303RE_CAN_NEW_HAL.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project33_F303RE_CAN_NEW_HAL\EWARM\settings\Project33_F303RE_CAN_NEW_HAL.Project33_F303RE_CAN_NEW_HAL.general.xcl" --backend -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project33_F303RE_CAN_NEW_HAL\EWARM\settings\Project33_F303RE_CAN_NEW_HAL.Project33_F303RE_CAN_NEW_HAL.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project33_F303RE_CAN_NEW_HAL\EWARM\settings\Project33_F303RE_CAN_NEW_HAL.Project33_F303RE_CAN_NEW_HAL.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project33_F303RE_CAN_NEW_HAL\EWARM\settings\Project33_F303RE_CAN_NEW_HAL.Project33_F303RE_CAN_NEW_HAL.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project33_F303RE_CAN_NEW_HAL\EWARM\settings\Project33_F303RE_CAN_NEW_HAL.Project33_F303RE_CAN_NEW_HAL.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project33_F303RE_CAN_NEW_HAL\EWARM\settings\Project33_F303RE_CAN_NEW_HAL.Project33_F303RE_CAN_NEW_HAL.driver.xcl" 
 
 @echo off 
 :end

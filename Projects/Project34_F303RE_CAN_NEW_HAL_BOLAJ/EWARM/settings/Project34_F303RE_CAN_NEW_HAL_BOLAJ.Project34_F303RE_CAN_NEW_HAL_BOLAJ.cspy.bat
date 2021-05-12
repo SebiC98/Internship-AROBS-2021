@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\EWARM\settings\Project34_F303RE_CAN_NEW_HAL_BOLAJ.Project34_F303RE_CAN_NEW_HAL_BOLAJ.general.xcl" --backend -f "C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\EWARM\settings\Project34_F303RE_CAN_NEW_HAL_BOLAJ.Project34_F303RE_CAN_NEW_HAL_BOLAJ.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\EWARM\settings\Project34_F303RE_CAN_NEW_HAL_BOLAJ.Project34_F303RE_CAN_NEW_HAL_BOLAJ.general.xcl" --backend -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\EWARM\settings\Project34_F303RE_CAN_NEW_HAL_BOLAJ.Project34_F303RE_CAN_NEW_HAL_BOLAJ.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\EWARM\settings\Project34_F303RE_CAN_NEW_HAL_BOLAJ.Project34_F303RE_CAN_NEW_HAL_BOLAJ.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\EWARM\settings\Project34_F303RE_CAN_NEW_HAL_BOLAJ.Project34_F303RE_CAN_NEW_HAL_BOLAJ.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\EWARM\settings\Project34_F303RE_CAN_NEW_HAL_BOLAJ.Project34_F303RE_CAN_NEW_HAL_BOLAJ.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project34_F303RE_CAN_NEW_HAL_BOLAJ\EWARM\settings\Project34_F303RE_CAN_NEW_HAL_BOLAJ.Project34_F303RE_CAN_NEW_HAL_BOLAJ.driver.xcl" 
 
 @echo off 
 :end

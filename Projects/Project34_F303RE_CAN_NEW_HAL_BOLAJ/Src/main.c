@@ -49,7 +49,7 @@ CAN_HandleTypeDef hcan;
 CAN_TxHeaderTypeDef pTxHeader;
 CAN_RxHeaderTypeDef pRxHeader;
 uint32_t pTxMailbox;
-uint8_t a[]={'S', 'a', 'l', 'b', 'o', 'l', 'A', 'j'};;
+uint8_t a[]={0, 0, 0, 0, 0, 0, 0, 0};
 uint8_t r[8];
 CAN_FilterTypeDef sFilterConfig;
 /* USER CODE END PV */
@@ -123,7 +123,8 @@ HAL_CAN_ActivateNotification(&hcan, CAN_IT_RX_FIFO0_MSG_PENDING);
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    for(int i=0;i<8;i++){a[i]++;}
+     for(int i=0;i<8;i++){a[i]++;}
+   HAL_Delay(1000);
      HAL_CAN_AddTxMessage(&hcan, &pTxHeader, a, &pTxMailbox);
     /* USER CODE END WHILE */
 
