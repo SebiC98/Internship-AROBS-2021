@@ -1,0 +1,110 @@
+# ninja log v5
+1	157	6408761776456395	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Application/EWARM/startup_stm32f767xx.o	598fa41fe6f71b5b
+101	1204	6408761786636631	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/stm32f7xx_hal_msp.o	d27dab7513616a3c
+978	1599	6408761790647247	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal.o	cd526cd82c0ef613
+1621	2249	6408761797196985	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_cortex.o	75db2b9ae75ae55
+1236	2331	6408761797509449	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma.o	7d29f42f3da462c9
+2354	2848	6408761803210994	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/CMSIS/system_stm32f7xx.o	55f84f6a1895fd77
+2874	3388	6408761808536665	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/stm32f7xx_it.o	9f985c01167ba16a
+2274	3931	6408761813862266	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_can.o	3e26412943c596eb
+3412	4333	6408761817872839	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.o	bb29a565f5506a81
+3953	4860	6408761823107132	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.o	fe3d58fafc64d95e
+4887	5683	6408761831440752	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_gpio.o	fe1d73448679e6e1
+5708	6709	6408761841779468	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma_ex.o	c9130a4b1bb1b285
+6737	7536	6408761850106731	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_exti.o	8d9f36e25288d1f4
+4357	7666	6408761851293629	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c.o	e961c14b1d0a2e5e
+7560	8161	6408761856275167	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_tim.o	a26e45ae1c04090e
+7687	8416	6408761858814209	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr_ex.o	a02693e00a23fa40
+8186	8800	6408761862627022	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c_ex.o	16180df0806989c2
+8442	9490	6408761869464273	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc.o	df0e899e1d8623f3
+8821	9948	6408761874163130	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc_ex.o	b0323b36e2aeac69
+9516	10150	6408761876168341	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.o	cf849088e8966328
+9975	10438	6408761879020123	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_tim_ex.o	476fe2f07c4c8a41
+0	469	6408762832553778	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	45d2140b5407f8c8
+5	925	6408799020492372	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	45d2140b5407f8c8
+947	1230	6408799023679320	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.out	a5710d9ee36a2c26
+1301	1414	6408799025659918	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.hex	9a9b2bc5551eccd1
+4	587	6408800934140327	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	45d2140b5407f8c8
+611	765	6408800935989538	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.out	a5710d9ee36a2c26
+836	874	6408800937304755	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.hex	9a9b2bc5551eccd1
+3	560	6408802019889238	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	45d2140b5407f8c8
+580	755	6408802022050647	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.out	a5710d9ee36a2c26
+823	860	6408802023225877	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.hex	9a9b2bc5551eccd1
+3	718	6408803401657861	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	45d2140b5407f8c8
+736	895	6408803403611466	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.out	a5710d9ee36a2c26
+960	999	6408803404755454	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.hex	9a9b2bc5551eccd1
+5	658	6408810590325833	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	45d2140b5407f8c8
+681	861	6408810592487537	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.out	a5710d9ee36a2c26
+932	979	6408810593802979	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.hex	9a9b2bc5551eccd1
+3	813	6408815387201723	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	45d2140b5407f8c8
+835	995	6408815389048084	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.out	a5710d9ee36a2c26
+1065	1188	6408815391206067	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.hex	9a9b2bc5551eccd1
+5	607	6408815898933859	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	45d2140b5407f8c8
+628	795	6408815900886642	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.out	a5710d9ee36a2c26
+869	909	6408815902142217	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.hex	9a9b2bc5551eccd1
+3	720	6408819776198107	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	45d2140b5407f8c8
+743	954	6408819778699692	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.out	a5710d9ee36a2c26
+1028	1070	6408819780049950	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.hex	9a9b2bc5551eccd1
+4	547	6408820311073425	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	45d2140b5407f8c8
+569	780	6408820313299958	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.out	a5710d9ee36a2c26
+854	916	6408820314771396	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.hex	9a9b2bc5551eccd1
+3	561	6408822332322650	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	45d2140b5407f8c8
+584	744	6408822334327864	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.out	a5710d9ee36a2c26
+810	849	6408822335486723	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.hex	9a9b2bc5551eccd1
+5	719	6408824036881409	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	45d2140b5407f8c8
+741	904	6408824038790667	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.out	a5710d9ee36a2c26
+968	1004	6408824039949881	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.hex	9a9b2bc5551eccd1
+3	755	6408831794854809	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	45d2140b5407f8c8
+774	954	6408831797016280	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.out	a5710d9ee36a2c26
+1036	1137	6408831798865278	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.hex	9a9b2bc5551eccd1
+3	526	6408832159906397	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	45d2140b5407f8c8
+547	722	6408832161911909	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.out	a5710d9ee36a2c26
+792	828	6408832163135786	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.hex	9a9b2bc5551eccd1
+3	712	6408832478793861	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	45d2140b5407f8c8
+736	894	6408832480643413	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.out	a5710d9ee36a2c26
+970	1008	6408832481958500	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.hex	9a9b2bc5551eccd1
+3	583	6408833351872540	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	45d2140b5407f8c8
+604	759	6408833353721664	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.out	a5710d9ee36a2c26
+823	862	6408833354880645	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.hex	9a9b2bc5551eccd1
+8	799	6408846681730300	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	45d2140b5407f8c8
+819	1112	6408846685052207	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.out	a5710d9ee36a2c26
+1192	1283	6408846686744978	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.hex	9a9b2bc5551eccd1
+4	577	6408848812812263	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	45d2140b5407f8c8
+597	750	6408848814657893	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.out	a5710d9ee36a2c26
+815	857	6408848815873564	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.hex	9a9b2bc5551eccd1
+4	625	6408849527384834	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	45d2140b5407f8c8
+645	795	6408849529233646	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.out	a5710d9ee36a2c26
+863	900	6408849530392414	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.hex	9a9b2bc5551eccd1
+1	687	6423441476942641	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	890ad0bb98aa377a
+1	508	6423441582420193	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	890ad0bb98aa377a
+2	998	6423441657321205	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	890ad0bb98aa377a
+3	650	6423443734863565	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/stm32f7xx_hal_msp.o	8caa28cb1038186f
+22	754	6423443734863565	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	890ad0bb98aa377a
+670	816	6423443736753717	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Application/EWARM/startup_stm32f767xx.o	eeae0854b5f33f31
+829	1502	6423443743429998	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_cortex.o	71489460ad5040b
+1532	1966	6423443748033794	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/stm32f7xx_it.o	acfeab44021bb254
+784	2241	6423443750744139	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_can.o	6c131def6c19dd6
+1999	2514	6423443753439530	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/CMSIS/system_stm32f7xx.o	5bc55c56feb4c382
+2270	2812	6423443756513484	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal.o	e7aebd59ed4e8f61
+2540	3475	6423443763149770	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma.o	1f33e6a173a3db6e
+2847	3554	6423443763469563	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.o	e70f03d0cbf841f4
+3505	4219	6423443770608706	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_gpio.o	f3b94d57da0e7592
+4254	5137	6423443779733540	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma_ex.o	4d1cb00f30e2c7e0
+5167	5837	6423443786749596	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.o	d615b02c44fd4fd6
+3581	6296	6423443791257047	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c.o	df5af34604883a32
+5870	6505	6423443793445834	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_exti.o	e02bbd443bfcf28a
+6533	7013	6423443798513025	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c_ex.o	6bd4eb148b49b082
+6323	7364	6423443801961053	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc_ex.o	38071df010533e71
+7046	7599	6423443804351331	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_tim.o	716ef52058487c2c
+7389	7921	6423443807569537	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.o	41ef7bc68630be76
+7632	8301	6423443811387370	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr_ex.o	95c71174b7127a21
+8325	8770	6423443816113538	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_tim_ex.o	19ad25cbe5c36758
+7954	8896	6423443817323019	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc.o	127bdd95deaeea78
+8924	9082	6423443819281723	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.out	df50bcadeed74c1b
+9150	9201	6423443820606504	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.hex	df73588d27fb7bd1
+5	1232	6423444646057443	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	890ad0bb98aa377a
+1256	1543	6423444649295597	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.out	df50bcadeed74c1b
+1628	1691	6423444650944669	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.hex	df73588d27fb7bd1
+3	692	6423444946623271	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Obj/Application/User/main.o	890ad0bb98aa377a
+715	893	6423444948793347	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.out	df50bcadeed74c1b
+979	1029	6423444950264680	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project23_GATEWAY_CAN_FUNCTIONABIL DOAR CAN1/EWARM/Project23_GATEWAY_CAN/Exe/Project23_GATEWAY_CAN.hex	df73588d27fb7bd1
