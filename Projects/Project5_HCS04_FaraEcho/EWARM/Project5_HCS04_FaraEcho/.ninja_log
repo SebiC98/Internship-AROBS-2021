@@ -1,0 +1,26 @@
+# ninja log v5
+13	233	6399282652549552	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Application/EWARM/startup_stm32l010xb.o	5406924ed5fdd8bc
+245	1147	6399282661518096	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Application/User/Core/stm32l0xx_hal_msp.o	9f6e99215d64420d
+147	1393	6399282663942018	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Application/User/Core/main.o	ab9518bd2ce9e8e8
+1170	1907	6399282669012656	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Drivers/STM32L0xx_HAL_Driver/stm32l0xx_hal_cortex.o	34f63de1edde9038
+1418	2058	6399282670584668	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Drivers/CMSIS/system_stm32l0xx.o	f4b51f7ceb61cdd7
+1935	2569	6399282675691964	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Drivers/STM32L0xx_HAL_Driver/stm32l0xx_hal.o	5a5ceba399f7b58f
+2082	2958	6399282679599802	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Drivers/STM32L0xx_HAL_Driver/stm32l0xx_hal_dma.o	2da89f3c6994af83
+2593	3047	6399282680419354	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Application/User/Core/stm32l0xx_it.o	eb5985d0a1b41ca0
+2987	3779	6399282687725341	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Drivers/STM32L0xx_HAL_Driver/stm32l0xx_hal_exti.o	2b7acfbc4e3f0dd1
+3074	4161	6399282691583901	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Drivers/STM32L0xx_HAL_Driver/stm32l0xx_hal_flash_ex.o	150c3f2f76d786c5
+3808	4504	6399282694749082	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Drivers/STM32L0xx_HAL_Driver/stm32l0xx_hal_i2c_ex.o	2f5c139cb938d5d1
+4184	5023	6399282700186088	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Drivers/STM32L0xx_HAL_Driver/stm32l0xx_hal_flash.o	dd87fecb2811f0bf
+4529	5305	6399282703106535	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Drivers/STM32L0xx_HAL_Driver/stm32l0xx_hal_gpio.o	454017879bc09827
+5049	5689	6399282706884491	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Drivers/STM32L0xx_HAL_Driver/stm32l0xx_hal_flash_ramfunc.o	c08b930f37b8f572
+5716	6150	6399282711531935	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Drivers/STM32L0xx_HAL_Driver/stm32l0xx_hal_tim_ex.o	29eddb909255d0d4
+6178	6634	6399282716274088	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Drivers/STM32L0xx_HAL_Driver/stm32l0xx_hal_pwr_ex.o	9a9e15e5aa0687ac
+6662	7278	6399282722765960	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Drivers/STM32L0xx_HAL_Driver/stm32l0xx_hal_rcc_ex.o	d77d949917add2ed
+7306	8631	6399282736351814	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Drivers/STM32L0xx_HAL_Driver/stm32l0xx_hal_rcc.o	2a18b99ade994637
+8659	9143	6399282741484333	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Drivers/STM32L0xx_HAL_Driver/stm32l0xx_hal_pwr.o	fe1b8cf2093d1b6
+5327	9856	6399282748518211	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Drivers/STM32L0xx_HAL_Driver/stm32l0xx_hal_i2c.o	f91a1edbf9e63c1b
+9881	10747	6399282757399518	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Drivers/STM32L0xx_HAL_Driver/stm32l0xx_hal_uart_ex.o	2a01e7fc1c4a5cc7
+9169	13363	6399282783535603	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Drivers/STM32L0xx_HAL_Driver/stm32l0xx_hal_tim.o	56e64b312a877d03
+10779	13408	6399282783745493	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Obj/Drivers/STM32L0xx_HAL_Driver/stm32l0xx_hal_uart.o	82424e90220ac8b0
+13430	13715	6399282787255068	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Exe/Project5_HCS04_FaraEcho.out	43b4d4f5c0070a04
+13790	13895	6399282789196043	C:/Users/sebastian.cioata/Documents/Internship 2021/Projects/Project5_HCS04_FaraEcho/EWARM/Project5_HCS04_FaraEcho/Exe/Project5_HCS04_FaraEcho.hex	62c2376dd6149870

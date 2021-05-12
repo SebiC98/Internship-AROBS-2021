@@ -1,0 +1,333 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  07/Apr/2021  13:16:44
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Exe\Project1_LED2.out
+#    Map file     =
+#        C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\List\Project1_LED2.map
+#    Command line =
+#        -f "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Exe\Project1_LED2.out.rsp"
+#        ("C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Application\User\Core\main.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Application\EWARM\startup_stm32l010xb.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_cortex.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_dma.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_exti.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_flash.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_flash_ex.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_flash_ramfunc.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_gpio.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_i2c.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_i2c_ex.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Application\User\Core\stm32l0xx_hal_msp.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_pwr.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_pwr_ex.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_rcc.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_rcc_ex.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_tim.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_tim_ex.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Application\User\Core\stm32l0xx_it.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Drivers\CMSIS\system_stm32l0xx.o"
+#        --no_out_extension -o "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\Exe\Project1_LED2.out"
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM\Project1_LED2\List\Project1_LED2.map"
+#        --config "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project1_LED2\EWARM/stm32l010xb_flash.icf" --semihosting
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x801'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'4fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address   Size  Object
+  -------            ----         -------   ----  ------
+"A0":                                       0xc0
+  .intvec            ro code   0x800'0000   0xc0  startup_stm32l010xb.o [1]
+                             - 0x800'00c0   0xc0
+
+"P1":                                      0xd00
+  .text              ro code   0x800'00c0  0x678  stm32l0xx_hal_rcc.o [4]
+  .text              ro code   0x800'0738   0x44  stm32l0xx_hal.o [4]
+  .text              ro code   0x800'077c    0xc  stm32l0xx_hal.o [4]
+  .text              ro code   0x800'0788   0x32  I64Mul.o [6]
+  .text              ro code   0x800'07ba   0x6a  I64DivMod.o [6]
+  .text              ro code   0x800'0824   0x36  I32DivMod.o [6]
+  .text              ro code   0x800'085a    0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'085c   0x78  stm32l0xx_hal_cortex.o [4]
+  .text              ro code   0x800'08d4    0x2  I64DivZer.o [6]
+  .text              ro code   0x800'08d6    0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'08d8    0x2  IntDivZer.o [6]
+  .text              ro code   0x800'08da    0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'08dc  0x1a8  stm32l0xx_hal_gpio.o [4]
+  .text              ro code   0x800'0a84   0xf4  main.o [2]
+  .text              ro code   0x800'0b78   0x28  stm32l0xx_hal.o [4]
+  .text              ro code   0x800'0ba0   0x14  memset.o [6]
+  .text              ro code   0x800'0bb4   0x28  stm32l0xx_hal.o [4]
+  .text              ro code   0x800'0bdc   0x1c  stm32l0xx_hal_msp.o [2]
+  .text              ro code   0x800'0bf8   0x4e  ABImemset.o [6]
+  .text              ro code   0x800'0c46    0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'0c48   0x3c  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'0c84   0x30  copy_init3.o [6]
+  .text              ro code   0x800'0cb4   0x28  data_init.o [6]
+  .iar.init_table    const     0x800'0cdc   0x14  - Linker created -
+  .text              ro code   0x800'0cf0   0x20  system_stm32l0xx.o [3]
+  .text              ro code   0x800'0d10   0x1e  cmain.o [6]
+  .text              ro code   0x800'0d2e    0x4  low_level_init.o [5]
+  .text              ro code   0x800'0d32    0x8  exit.o [5]
+  .text              ro code   0x800'0d3a    0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'0d3c    0xa  cexit.o [6]
+  .text              ro code   0x800'0d46    0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'0d48   0x14  exit.o [7]
+  .text              ro code   0x800'0d5c   0x1c  cstartup_M.o [6]
+  .text              ro code   0x800'0d78   0x10  stm32l0xx_hal.o [4]
+  .text              ro code   0x800'0d88   0x10  stm32l0xx_it.o [2]
+  Initializer bytes  const     0x800'0d98   0x10  <for P2-1>
+  .text              ro code   0x800'0da8    0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'0daa    0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'0dac    0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'0dae    0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'0db0    0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'0db2    0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'0db4    0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'0db6    0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'0db8    0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'0dba    0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'0dbc    0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'0dbe    0x2  startup_stm32l010xb.o [1]
+  .rodata            const     0x800'0dc0    0x0  copy_init3.o [6]
+                             - 0x800'0dc0  0xd00
+
+"P2", part 1 of 2:                          0x10
+  P2-1                        0x2000'0000   0x10  <Init block>
+    .data            inited   0x2000'0000    0xc  stm32l0xx_hal.o [4]
+    .data            inited   0x2000'000c    0x4  system_stm32l0xx.o [3]
+                            - 0x2000'0010   0x10
+
+"P2", part 2 of 2:                         0x400
+  CSTACK                      0x2000'0010  0x400  <Block>
+    CSTACK           uninit   0x2000'0010  0x400  <Block tail>
+                            - 0x2000'0410  0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'0dc0   0x801'ffff  0x1'f240
+  0x2000'0410  0x2000'4fff    0x4bf0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0x10:
+           0x800'0d98  0x10
+    1 destination range, total size 0x10:
+          0x2000'0000  0x10
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Application\EWARM: [1]
+    startup_stm32l010xb.o       288
+    -------------------------------------------------
+    Total:                      288
+
+C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Application\User\Core: [2]
+    main.o                      244
+    stm32l0xx_hal_msp.o          28
+    stm32l0xx_it.o               16
+    -------------------------------------------------
+    Total:                      288
+
+C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Drivers\CMSIS: [3]
+    system_stm32l0xx.o           32        4        4
+    -------------------------------------------------
+    Total:                       32        4        4
+
+C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Drivers\STM32L0xx_HAL_Driver: [4]
+    stm32l0xx_hal.o             176       12       12
+    stm32l0xx_hal_cortex.o      120
+    stm32l0xx_hal_gpio.o        424
+    stm32l0xx_hal_rcc.o       1'656
+    -------------------------------------------------
+    Total:                    2'376       12       12
+
+dl6M_tln.a: [5]
+    exit.o                        8
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                       12
+
+rt6M_tl.a: [6]
+    ABImemset.o                  78
+    I32DivMod.o                  54
+    I64DivMod.o                 106
+    I64DivZer.o                   2
+    I64Mul.o                     50
+    IntDivZer.o                   2
+    cexit.o                      10
+    cmain.o                      30
+    copy_init3.o                 48
+    cstartup_M.o                 28
+    data_init.o                  40
+    memset.o                     20
+    -------------------------------------------------
+    Total:                      468
+
+shb_l.a: [7]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Linker created                        20    1'024
+-----------------------------------------------------
+    Grand Total:              3'484       36    1'040
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'0cdc          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'0cf0          --   Gb  - Linker created -
+?main                    0x800'0d11         Code  Gb  cmain.o [6]
+AHBPrescTable            0x800'0cf4   0x10  Data  Gb  system_stm32l0xx.o [3]
+CSTACK$$Base            0x2000'0010          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0410          --   Gb  - Linker created -
+HAL_Delay                0x800'0bb5   0x28  Code  Gb  stm32l0xx_hal.o [4]
+HAL_GPIO_Init            0x800'08dd  0x17c  Code  Gb  stm32l0xx_hal_gpio.o [4]
+HAL_GPIO_WritePin        0x800'0a59    0xc  Code  Gb  stm32l0xx_hal_gpio.o [4]
+HAL_GetTick              0x800'077d    0xc  Code  Gb  stm32l0xx_hal.o [4]
+HAL_IncTick              0x800'0d79   0x10  Code  Gb  stm32l0xx_hal.o [4]
+HAL_Init                 0x800'0b79   0x24  Code  Gb  stm32l0xx_hal.o [4]
+HAL_InitTick             0x800'0739   0x44  Code  Gb  stm32l0xx_hal.o [4]
+HAL_MspInit              0x800'0bdd   0x1c  Code  Gb  stm32l0xx_hal_msp.o [2]
+HAL_NVIC_SetPriority     0x800'0897    0x8  Code  Gb  stm32l0xx_hal_cortex.o [4]
+HAL_RCC_ClockConfig      0x800'04f5  0x194  Code  Gb  stm32l0xx_hal_rcc.o [4]
+HAL_RCC_GetSysClockFreq
+                         0x800'0699   0x72  Code  Gb  stm32l0xx_hal_rcc.o [4]
+HAL_RCC_OscConfig        0x800'00c1  0x424  Code  Gb  stm32l0xx_hal_rcc.o [4]
+HAL_SYSTICK_Config       0x800'089f   0x28  Code  Gb  stm32l0xx_hal_cortex.o [4]
+HardFault_Handler        0x800'0d8b    0x2  Code  Gb  stm32l0xx_it.o [2]
+NMI_Handler              0x800'0d89    0x2  Code  Gb  stm32l0xx_it.o [2]
+PLLMulTable              0x800'0d04    0xc  Data  Gb  system_stm32l0xx.o [3]
+PendSV_Handler           0x800'0d8f    0x2  Code  Gb  stm32l0xx_it.o [2]
+Region$$Table$$Base      0x800'0cdc          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'0cf0          --   Gb  - Linker created -
+SVC_Handler              0x800'0d8d    0x2  Code  Gb  stm32l0xx_it.o [2]
+SysTick_Handler          0x800'0d91    0x8  Code  Gb  stm32l0xx_it.o [2]
+SystemClock_Config       0x800'0b05   0x68  Code  Gb  main.o [2]
+SystemCoreClock         0x2000'000c    0x4  Data  Gb  system_stm32l0xx.o [3]
+SystemInit               0x800'0cf1    0x2  Code  Gb  system_stm32l0xx.o [3]
+__NVIC_SetPriority       0x800'085d   0x3a  Code  Lc  stm32l0xx_hal_cortex.o [4]
+__aeabi_idiv0            0x800'08d9         Code  Gb  IntDivZer.o [6]
+__aeabi_ldiv0            0x800'08d5         Code  Gb  I64DivZer.o [6]
+__aeabi_lmul             0x800'0789         Code  Gb  I64Mul.o [6]
+__aeabi_memset           0x800'0bf9         Code  Gb  ABImemset.o [6]
+__aeabi_uldivmod         0x800'07bb         Code  Gb  I64DivMod.o [6]
+__cmain                  0x800'0d11         Code  Gb  cmain.o [6]
+__exit                   0x800'0d49   0x14  Code  Gb  exit.o [7]
+__iar_Memset4_word       0x800'0c19         Code  Gb  ABImemset.o [6]
+__iar_Memset_word        0x800'0c05         Code  Gb  ABImemset.o [6]
+__iar_copy_init3         0x800'0c85   0x30  Code  Gb  copy_init3.o [6]
+__iar_data_init3         0x800'0cb5   0x28  Code  Gb  data_init.o [6]
+__iar_program_start      0x800'0d5d         Code  Gb  cstartup_M.o [6]
+__iar_small_uidiv        0x800'0825         Code  Gb  I32DivMod.o [6]
+__iar_small_uidivmod     0x800'0825         Code  Gb  I32DivMod.o [6]
+__low_level_init         0x800'0d2f    0x4  Code  Gb  low_level_init.o [5]
+__vector_table           0x800'0000         Data  Gb  startup_stm32l010xb.o [1]
+_call_main               0x800'0d1d         Code  Gb  cmain.o [6]
+_exit                    0x800'0d3d         Code  Gb  cexit.o [6]
+exit                     0x800'0d33    0x8  Code  Gb  exit.o [5]
+main                     0x800'0a85   0x80  Code  Gb  main.o [2]
+memset                   0x800'0ba1   0x14  Code  Gb  memset.o [6]
+uwTick                  0x2000'0004    0x4  Data  Gb  stm32l0xx_hal.o [4]
+uwTickFreq              0x2000'0000    0x1  Data  Gb  stm32l0xx_hal.o [4]
+uwTickPrio              0x2000'0008    0x4  Data  Gb  stm32l0xx_hal.o [4]
+
+
+[1] = C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Application\EWARM
+[2] = C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Application\User\Core
+[3] = C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Drivers\CMSIS
+[4] = C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project1_LED2\EWARM\Project1_LED2\Obj\Drivers\STM32L0xx_HAL_Driver
+[5] = dl6M_tln.a
+[6] = rt6M_tl.a
+[7] = shb_l.a
+
+  3'484 bytes of readonly  code memory
+     36 bytes of readonly  data memory
+  1'040 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

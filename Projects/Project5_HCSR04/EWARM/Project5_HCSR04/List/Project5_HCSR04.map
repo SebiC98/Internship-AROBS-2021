@@ -1,0 +1,501 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  12/Apr/2021  13:37:48
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Exe\Project5_HCSR04.out
+#    Map file     =
+#        C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\List\Project5_HCSR04.map
+#    Command line =
+#        -f "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Exe\Project5_HCSR04.out.rsp"
+#        ("C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Application\User\Core\main.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Application\EWARM\startup_stm32l010xb.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_cortex.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_dma.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_exti.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_flash.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_flash_ex.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_flash_ramfunc.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_gpio.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_i2c.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_i2c_ex.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Application\User\Core\stm32l0xx_hal_msp.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_pwr.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_pwr_ex.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_rcc.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_rcc_ex.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_tim.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_tim_ex.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_uart.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\STM32L0xx_HAL_Driver\stm32l0xx_hal_uart_ex.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Application\User\Core\stm32l0xx_it.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\CMSIS\system_stm32l0xx.o"
+#        --no_out_extension -o "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Exe\Project5_HCSR04.out"
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\List\Project5_HCSR04.map"
+#        --config "C:\Users\sebastian.cioata\Documents\Internship
+#        2021\Projects\Project5_HCSR04\EWARM/stm32l010xb_flash.icf"
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x801'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'4fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0xc0
+  .intvec            ro code   0x800'0000    0xc0  startup_stm32l010xb.o [1]
+                             - 0x800'00c0    0xc0
+
+"P1":                                      0x3095
+  .text              ro code   0x800'00c0   0xfe4  xprintffull_nomb.o [5]
+  .text              ro code   0x800'10a4    0x12  strchr.o [7]
+  .text              ro code   0x800'10b6     0xa  xsprout.o [5]
+  .text              ro code   0x800'10c0    0x48  xfail_s.o [5]
+  .text              ro code   0x800'1108     0xe  strlen.o [7]
+  .rodata            const     0x800'1116     0x2  xlocale_c.o [5]
+  .text              ro code   0x800'1118    0x16  memchr.o [7]
+  .text              ro code   0x800'112e     0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'1130    0x4e  ABImemcpy.o [7]
+  .text              ro code   0x800'117e    0x2a  frexp.o [6]
+  .text              ro code   0x800'11a8    0x32  DblCmpLe.o [6]
+  .text              ro code   0x800'11da    0x32  DblCmpGe.o [6]
+  .text              ro code   0x800'120c    0x70  ldexp.o [6]
+  .text              ro code   0x800'127c    0x52  DblToI32.o [6]
+  .text              ro code   0x800'12ce     0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'12d0    0x34  IxxToDbl.o [6]
+  .text              ro code   0x800'1304   0x1a8  DblAddSub.o [6]
+  .text              ro code   0x800'14ac    0x5e  I32DivMod.o [7]
+  .text              ro code   0x800'150a    0xc2  DblDiv.o [6]
+  .text              ro code   0x800'15cc   0x184  DblMul.o [6]
+  .text              ro code   0x800'1750     0xc  xlocale_c.o [5]
+  .text              ro code   0x800'175c    0x6a  I64DivMod.o [7]
+  .text              ro code   0x800'17c6     0xa  abort.o [5]
+  .text              ro code   0x800'17d0     0x2  IntDivZer.o [7]
+  .text              ro code   0x800'17d2     0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'17d4     0x2  I64DivZer.o [7]
+  .text              ro code   0x800'17d6     0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'17d8    0x14  exit.o [8]
+  .text              ro code   0x800'17ec   0x698  stm32l0xx_hal_rcc.o [4]
+  .text              ro code   0x800'1e84    0x44  stm32l0xx_hal.o [4]
+  .text              ro code   0x800'1ec8     0xc  stm32l0xx_hal.o [4]
+  .text              ro code   0x800'1ed4    0x32  I64Mul.o [7]
+  .text              ro code   0x800'1f06     0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'1f08    0x78  stm32l0xx_hal_cortex.o [4]
+  .text              ro code   0x800'1f80   0x55c  stm32l0xx_hal_uart.o [4]
+  .text              ro code   0x800'24dc    0x94  stm32l0xx_hal_msp.o [2]
+  .text              ro code   0x800'2570    0x14  memset.o [7]
+  .text              ro code   0x800'2584   0x1b4  stm32l0xx_hal_gpio.o [4]
+  .text              ro code   0x800'2738    0x10  ABImemset_small.o [7]
+  .text              ro code   0x800'2748   0x2c8  main.o [2]
+  .text              ro code   0x800'2a10    0x28  stm32l0xx_hal.o [4]
+  .text              ro code   0x800'2a38   0x1d8  stm32l0xx_hal_tim.o [4]
+  .text              ro code   0x800'2c10    0x5c  stm32l0xx_hal_tim_ex.o [4]
+  .text              ro code   0x800'2c6c    0x20  IxxToFlt.o [6]
+  .text              ro code   0x800'2c8c    0x32  FltToDbl.o [6]
+  .text              ro code   0x800'2cbe    0x62  DblToFlt.o [6]
+  .text              ro code   0x800'2d20    0x40  sprintf.o [5]
+  .text              ro code   0x800'2d60    0x28  stm32l0xx_hal.o [4]
+  .text              ro code   0x800'2d88   0x174  stm32l0xx_hal_rcc_ex.o [4]
+  .rodata            const     0x800'2efc    0x6a  xprintffull_nomb.o [5]
+  .text              ro code   0x800'2f66     0x2  startup_stm32l010xb.o [1]
+  Initializer bytes  const     0x800'2f68    0x48  <for P2-1>
+  .text              ro code   0x800'2fb0    0x3c  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'2fec    0x3c  zero_init3.o [7]
+  .text              ro code   0x800'3028    0x30  copy_init3.o [7]
+  .text              ro code   0x800'3058    0x28  data_init.o [7]
+  .iar.init_table    const     0x800'3080    0x24  - Linker created -
+  .text              ro code   0x800'30a4    0x20  system_stm32l0xx.o [3]
+  .text              ro code   0x800'30c4    0x1e  cmain.o [7]
+  .text              ro code   0x800'30e2     0x4  low_level_init.o [5]
+  .text              ro code   0x800'30e6     0x8  exit.o [5]
+  .text              ro code   0x800'30ee     0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'30f0     0xa  cexit.o [7]
+  .text              ro code   0x800'30fa     0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'30fc    0x1c  cstartup_M.o [7]
+  .text              ro code   0x800'3118    0x10  stm32l0xx_hal.o [4]
+  .text              ro code   0x800'3128    0x10  stm32l0xx_it.o [2]
+  .rodata            const     0x800'3138     0x8  system_stm32l0xx.o [3]
+  .text              ro code   0x800'3140     0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'3142     0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'3144     0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'3146     0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'3148     0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'314a     0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'314c     0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'314e     0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'3150     0x2  startup_stm32l010xb.o [1]
+  .text              ro code   0x800'3152     0x2  startup_stm32l010xb.o [1]
+  .rodata            const     0x800'3154     0x1  xlocale_c.o [5]
+  .rodata            const     0x800'3155     0x0  zero_init3.o [7]
+  .rodata            const     0x800'3155     0x0  copy_init3.o [7]
+                             - 0x800'3155  0x3095
+
+"P2", part 1 of 3:                           0x48
+  P2-1                        0x2000'0000    0x48  <Init block>
+    .data            inited   0x2000'0000     0xc  stm32l0xx_hal.o [4]
+    .data            inited   0x2000'000c     0x4  system_stm32l0xx.o [3]
+    .data            inited   0x2000'0010    0x38  xlocale_c.o [5]
+                            - 0x2000'0048    0x48
+
+"P2", part 2 of 3:                          0x130
+  .bss               zero     0x2000'0048   0x12c  main.o [2]
+  .bss               zero     0x2000'0174     0x4  xfail_s.o [5]
+                            - 0x2000'0178   0x130
+
+"P2", part 3 of 3:                          0x400
+  CSTACK                      0x2000'0178   0x400  <Block>
+    CSTACK           uninit   0x2000'0178   0x400  <Block tail>
+                            - 0x2000'0578   0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'3155   0x801'ffff  0x1'ceab
+  0x2000'0578  0x2000'4fff    0x4a88
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x130:
+          0x2000'0048  0x130
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x48:
+           0x800'2f68   0x48
+    1 destination range, total size 0x48:
+          0x2000'0000   0x48
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Application\EWARM: [1]
+    startup_stm32l010xb.o       288
+    -------------------------------------------------
+    Total:                      288
+
+C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Application\User\Core: [2]
+    main.o                      712               300
+    stm32l0xx_hal_msp.o         148
+    stm32l0xx_it.o               16
+    -------------------------------------------------
+    Total:                      876               300
+
+C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\CMSIS: [3]
+    system_stm32l0xx.o           32       12        4
+    -------------------------------------------------
+    Total:                       32       12        4
+
+C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\STM32L0xx_HAL_Driver: [4]
+    stm32l0xx_hal.o             176       12       12
+    stm32l0xx_hal_cortex.o      120
+    stm32l0xx_hal_gpio.o        436
+    stm32l0xx_hal_rcc.o       1'688
+    stm32l0xx_hal_rcc_ex.o      372
+    stm32l0xx_hal_tim.o         472
+    stm32l0xx_hal_tim_ex.o       92
+    stm32l0xx_hal_uart.o      1'372
+    -------------------------------------------------
+    Total:                    4'728       12       12
+
+dl6M_tlf.a: [5]
+    abort.o                      10
+    exit.o                        8
+    low_level_init.o              4
+    sprintf.o                    64
+    xfail_s.o                    72                 4
+    xlocale_c.o                  12       59       56
+    xprintffull_nomb.o        4'068      106
+    xsprout.o                    10
+    -------------------------------------------------
+    Total:                    4'248      165       60
+
+m6M_tl.a: [6]
+    DblAddSub.o                 424
+    DblCmpGe.o                   50
+    DblCmpLe.o                   50
+    DblDiv.o                    194
+    DblMul.o                    388
+    DblToFlt.o                   98
+    DblToI32.o                   82
+    FltToDbl.o                   50
+    IxxToDbl.o                   52
+    IxxToFlt.o                   32
+    frexp.o                      42
+    ldexp.o                     112
+    -------------------------------------------------
+    Total:                    1'574
+
+rt6M_tl.a: [7]
+    ABImemcpy.o                  78
+    ABImemset_small.o            16
+    I32DivMod.o                  94
+    I64DivMod.o                 106
+    I64DivZer.o                   2
+    I64Mul.o                     50
+    IntDivZer.o                   2
+    cexit.o                      10
+    cmain.o                      30
+    copy_init3.o                 48
+    cstartup_M.o                 28
+    data_init.o                  40
+    memchr.o                     22
+    memset.o                     20
+    strchr.o                     18
+    strlen.o                     14
+    zero_init3.o                 60
+    -------------------------------------------------
+    Total:                      638
+
+shb_l.a: [8]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Linker created                        36    1'024
+-----------------------------------------------------
+    Grand Total:             12'404      225    1'400
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'3080          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'30a4          --   Gb  - Linker created -
+?main                    0x800'30c5         Code  Gb  cmain.o [7]
+AHBPrescTable            0x800'30a8   0x10  Data  Gb  system_stm32l0xx.o [3]
+APBPrescTable            0x800'3138    0x8  Data  Gb  system_stm32l0xx.o [3]
+CSTACK$$Base            0x2000'0178          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0578          --   Gb  - Linker created -
+Error_Handler            0x800'29f5    0x4  Code  Gb  main.o [2]
+HAL_Delay                0x800'2d61   0x28  Code  Gb  stm32l0xx_hal.o [4]
+HAL_GPIO_Init            0x800'2585  0x17c  Code  Gb  stm32l0xx_hal_gpio.o [4]
+HAL_GPIO_ReadPin         0x800'2701    0xc  Code  Gb  stm32l0xx_hal_gpio.o [4]
+HAL_GPIO_WritePin        0x800'270d    0xc  Code  Gb  stm32l0xx_hal_gpio.o [4]
+HAL_GetTick              0x800'1ec9    0xc  Code  Gb  stm32l0xx_hal.o [4]
+HAL_IncTick              0x800'3119   0x10  Code  Gb  stm32l0xx_hal.o [4]
+HAL_Init                 0x800'2a11   0x24  Code  Gb  stm32l0xx_hal.o [4]
+HAL_InitTick             0x800'1e85   0x44  Code  Gb  stm32l0xx_hal.o [4]
+HAL_MspInit              0x800'24dd   0x16  Code  Gb  stm32l0xx_hal_msp.o [2]
+HAL_NVIC_SetPriority     0x800'1f43    0x8  Code  Gb  stm32l0xx_hal_cortex.o [4]
+HAL_RCCEx_PeriphCLKConfig
+                         0x800'2d89  0x14a  Code  Gb  stm32l0xx_hal_rcc_ex.o [4]
+HAL_RCC_ClockConfig      0x800'1c21  0x194  Code  Gb  stm32l0xx_hal_rcc.o [4]
+HAL_RCC_GetPCLK1Freq     0x800'1e37    0xe  Code  Gb  stm32l0xx_hal_rcc.o [4]
+HAL_RCC_GetSysClockFreq
+                         0x800'1dc5   0x72  Code  Gb  stm32l0xx_hal_rcc.o [4]
+HAL_RCC_OscConfig        0x800'17ed  0x424  Code  Gb  stm32l0xx_hal_rcc.o [4]
+HAL_SYSTICK_Config       0x800'1f4b   0x28  Code  Gb  stm32l0xx_hal_cortex.o [4]
+HAL_TIMEx_MasterConfigSynchronization
+                         0x800'2c11   0x54  Code  Gb  stm32l0xx_hal_tim_ex.o [4]
+HAL_TIM_Base_Init        0x800'2a39   0x46  Code  Gb  stm32l0xx_hal_tim.o [4]
+HAL_TIM_Base_MspInit     0x800'24f3   0x16  Code  Gb  stm32l0xx_hal_msp.o [2]
+HAL_TIM_ConfigClockSource
+                         0x800'2a87   0xba  Code  Gb  stm32l0xx_hal_tim.o [4]
+HAL_UART_Init            0x800'1f81   0x56  Code  Gb  stm32l0xx_hal_uart.o [4]
+HAL_UART_MspInit         0x800'2509   0x56  Code  Gb  stm32l0xx_hal_msp.o [2]
+HAL_UART_Transmit        0x800'1fed   0xfa  Code  Gb  stm32l0xx_hal_uart.o [4]
+HardFault_Handler        0x800'312b    0x2  Code  Gb  stm32l0xx_it.o [2]
+NMI_Handler              0x800'3129    0x2  Code  Gb  stm32l0xx_it.o [2]
+PLLMulTable              0x800'30b8    0xc  Data  Gb  system_stm32l0xx.o [3]
+PendSV_Handler           0x800'312f    0x2  Code  Gb  stm32l0xx_it.o [2]
+Region$$Table$$Base      0x800'3080          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'30a4          --   Gb  - Linker created -
+SVC_Handler              0x800'312d    0x2  Code  Gb  stm32l0xx_it.o [2]
+SysTick_Handler          0x800'3131    0x8  Code  Gb  stm32l0xx_it.o [2]
+SystemClock_Config       0x800'2917   0x86  Code  Gb  main.o [2]
+SystemCoreClock         0x2000'000c    0x4  Data  Gb  system_stm32l0xx.o [3]
+SystemInit               0x800'30a5    0x2  Code  Gb  system_stm32l0xx.o [3]
+TIM_Base_SetConfig       0x800'2b45   0x4e  Code  Lc  stm32l0xx_hal_tim.o [4]
+TIM_ETR_SetConfig        0x800'2be9   0x14  Code  Lc  stm32l0xx_hal_tim.o [4]
+TIM_ITRx_SetConfig       0x800'2bd9   0x10  Code  Lc  stm32l0xx_hal_tim.o [4]
+TIM_TI1_ConfigInputStage
+                         0x800'2b93   0x22  Code  Lc  stm32l0xx_hal_tim.o [4]
+TIM_TI2_ConfigInputStage
+                         0x800'2bb5   0x24  Code  Lc  stm32l0xx_hal_tim.o [4]
+UART_AdvFeatureConfig    0x800'22c5   0xc8  Code  Gb  stm32l0xx_hal_uart.o [4]
+UART_CheckIdleState      0x800'239d   0x60  Code  Gb  stm32l0xx_hal_uart.o [4]
+UART_SetConfig           0x800'20e7  0x1d2  Code  Gb  stm32l0xx_hal_uart.o [4]
+UART_WaitOnFlagUntilTimeout
+                         0x800'23fd   0xa6  Code  Gb  stm32l0xx_hal_uart.o [4]
+_LitobFullNoMb           0x800'0edd  0x124  Code  Lc  xprintffull_nomb.o [5]
+_Locale_lconv           0x2000'0010   0x38  Data  Lc  xlocale_c.o [5]
+_PrintfFullNoMb          0x800'00c1  0xe1c  Code  Gb  xprintffull_nomb.o [5]
+_PutcharFullNoMb         0x800'104d   0x22  Code  Lc  xprintffull_nomb.o [5]
+_PutcharsFullNoMb        0x800'106f   0x36  Code  Lc  xprintffull_nomb.o [5]
+_SProut                  0x800'10b7    0xa  Code  Gb  xsprout.o [5]
+__NVIC_SetPriority       0x800'1f09   0x3a  Code  Lc  stm32l0xx_hal_cortex.o [4]
+__aeabi_cdcmple          0x800'11a9         Code  Gb  DblCmpLe.o [6]
+__aeabi_cdrcmple         0x800'11db         Code  Gb  DblCmpGe.o [6]
+__aeabi_d2f              0x800'2cbf         Code  Gb  DblToFlt.o [6]
+__aeabi_d2iz             0x800'127d         Code  Gb  DblToI32.o [6]
+__aeabi_d2uiz            0x800'12a1         Code  Gb  DblToI32.o [6]
+__aeabi_ddiv             0x800'150b         Code  Gb  DblDiv.o [6]
+__aeabi_dmul             0x800'15cd         Code  Gb  DblMul.o [6]
+__aeabi_dsub             0x800'13bf         Code  Gb  DblAddSub.o [6]
+__aeabi_f2d              0x800'2c8d         Code  Gb  FltToDbl.o [6]
+__aeabi_i2d              0x800'12f1         Code  Gb  IxxToDbl.o [6]
+__aeabi_idiv0            0x800'17d1         Code  Gb  IntDivZer.o [7]
+__aeabi_ldiv0            0x800'17d5         Code  Gb  I64DivZer.o [7]
+__aeabi_lmul             0x800'1ed5         Code  Gb  I64Mul.o [7]
+__aeabi_memcpy           0x800'1165         Code  Gb  ABImemcpy.o [7]
+__aeabi_memcpy4          0x800'1131         Code  Gb  ABImemcpy.o [7]
+__aeabi_memcpy8          0x800'1131         Code  Gb  ABImemcpy.o [7]
+__aeabi_ui2d             0x800'12d1         Code  Gb  IxxToDbl.o [6]
+__aeabi_ui2f             0x800'2c6d         Code  Gb  IxxToFlt.o [6]
+__aeabi_uldivmod         0x800'175d         Code  Gb  I64DivMod.o [7]
+__cmain                  0x800'30c5         Code  Gb  cmain.o [7]
+__exit                   0x800'17d9   0x14  Code  Gb  exit.o [8]
+__iar_Fail_s             0x800'10c1   0x22  Code  Gb  xfail_s.o [5]
+__iar_Memchr             0x800'1119         Code  Gb  memchr.o [7]
+__iar_Memcpy             0x800'1171         Code  Gb  ABImemcpy.o [7]
+__iar_Strchr             0x800'10a5         Code  Gb  strchr.o [7]
+__iar_copy_init3         0x800'3029   0x30  Code  Gb  copy_init3.o [7]
+__iar_d2uiz              0x800'12a5         Code  Gb  DblToI32.o [6]
+__iar_data_init3         0x800'3059   0x28  Code  Gb  data_init.o [7]
+__iar_frexp              0x800'118b         Code  Gb  frexp.o [6]
+__iar_frexp64            0x800'117f         Code  Gb  frexp.o [6]
+__iar_frexpl             0x800'118b         Code  Gb  frexp.o [6]
+__iar_ldexp64            0x800'120d         Code  Gb  ldexp.o [6]
+__iar_program_start      0x800'30fd         Code  Gb  cstartup_M.o [7]
+__iar_scalbln64          0x800'120d         Code  Gb  ldexp.o [6]
+__iar_scalbn64           0x800'120d         Code  Gb  ldexp.o [6]
+__iar_small_Memset4_word
+                         0x800'273d         Code  Gb  ABImemset_small.o [7]
+__iar_small_Memset_word
+                         0x800'273d         Code  Gb  ABImemset_small.o [7]
+__iar_small_idiv         0x800'14ad         Code  Gb  I32DivMod.o [7]
+__iar_small_idivmod      0x800'14ad         Code  Gb  I32DivMod.o [7]
+__iar_small_memclr       0x800'2739         Code  Gb  ABImemset_small.o [7]
+__iar_small_memclr4      0x800'2739         Code  Gb  ABImemset_small.o [7]
+__iar_small_memclr8      0x800'2739         Code  Gb  ABImemset_small.o [7]
+__iar_small_memset       0x800'273d         Code  Gb  ABImemset_small.o [7]
+__iar_small_memset4      0x800'273d         Code  Gb  ABImemset_small.o [7]
+__iar_small_memset8      0x800'273d         Code  Gb  ABImemset_small.o [7]
+__iar_small_uidiv        0x800'14d5         Code  Gb  I32DivMod.o [7]
+__iar_small_uidivmod     0x800'14d5         Code  Gb  I32DivMod.o [7]
+__iar_zero_init3         0x800'2fed   0x3c  Code  Gb  zero_init3.o [7]
+__low_level_init         0x800'30e3    0x4  Code  Gb  low_level_init.o [5]
+__vector_table           0x800'0000         Data  Gb  startup_stm32l010xb.o [1]
+_call_main               0x800'30d1         Code  Gb  cmain.o [7]
+_exit                    0x800'30f1         Code  Gb  cexit.o [7]
+abort                    0x800'17c7    0xa  Code  Gb  abort.o [5]
+distance                0x2000'010c    0x4  Data  Gb  main.o [2]
+exit                     0x800'30e7    0x8  Code  Gb  exit.o [5]
+frexp                    0x800'117f         Code  Gb  frexp.o [6]
+frexpl                   0x800'117f         Code  Gb  frexp.o [6]
+htim2                   0x2000'00cc   0x40  Data  Gb  main.o [2]
+huart2                  0x2000'0048   0x84  Data  Gb  main.o [2]
+ldexp                    0x800'120d         Code  Gb  ldexp.o [6]
+ldexpl                   0x800'120d         Code  Gb  ldexp.o [6]
+localeconv               0x800'1751    0x4  Code  Gb  xlocale_c.o [5]
+main                     0x800'2749  0x1ce  Code  Gb  main.o [2]
+memchr                   0x800'1119         Code  Gb  memchr.o [7]
+memset                   0x800'2571   0x14  Code  Gb  memset.o [7]
+scalbln                  0x800'120d         Code  Gb  ldexp.o [6]
+scalblnl                 0x800'120d         Code  Gb  ldexp.o [6]
+scalbn                   0x800'120d         Code  Gb  ldexp.o [6]
+scalbnl                  0x800'120d         Code  Gb  ldexp.o [6]
+scale                    0x800'1001   0x44  Code  Lc  xprintffull_nomb.o [5]
+sec_hand                0x2000'0174    0x4  Data  Lc  xfail_s.o [5]
+sprintf                  0x800'2d21   0x40  Code  Gb  sprintf.o [5]
+strchr                   0x800'10a5         Code  Gb  strchr.o [7]
+strlen                   0x800'1109         Code  Gb  strlen.o [7]
+uartBuf                 0x2000'0110   0x64  Data  Gb  main.o [2]
+usDelay                  0x800'29c5   0x30  Code  Gb  main.o [2]
+uwTick                  0x2000'0004    0x4  Data  Gb  stm32l0xx_hal.o [4]
+uwTickFreq              0x2000'0000    0x1  Data  Gb  stm32l0xx_hal.o [4]
+uwTickPrio              0x2000'0008    0x4  Data  Gb  stm32l0xx_hal.o [4]
+
+
+[1] = C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Application\EWARM
+[2] = C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Application\User\Core
+[3] = C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\CMSIS
+[4] = C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project5_HCSR04\EWARM\Project5_HCSR04\Obj\Drivers\STM32L0xx_HAL_Driver
+[5] = dl6M_tlf.a
+[6] = m6M_tl.a
+[7] = rt6M_tl.a
+[8] = shb_l.a
+
+  12'404 bytes of readonly  code memory
+     225 bytes of readonly  data memory
+   1'400 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
