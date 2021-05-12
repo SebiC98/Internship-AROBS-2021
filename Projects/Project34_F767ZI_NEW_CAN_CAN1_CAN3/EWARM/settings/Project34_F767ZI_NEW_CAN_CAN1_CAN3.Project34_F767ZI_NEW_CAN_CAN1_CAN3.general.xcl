@@ -1,0 +1,21 @@
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armPROC.dll" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armSTLINK.dll" 
+
+"C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project34_F767ZI_NEW_CAN_CAN1_CAN3\EWARM\Project34_F767ZI_NEW_CAN_CAN1_CAN3\Exe\Project34_F767ZI_NEW_CAN_CAN1_CAN3.out" 
+
+--plugin="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armbat.dll" 
+
+--device_macro="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\config\debugger\ST\STM32F7xx.dmac" 
+
+--device_macro="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\config\debugger\ST\STM32F7xx_DBG.dmac" 
+
+--device_macro="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\config\debugger\ST\STM32F7xx_OB.dmac" 
+
+--device_macro="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\config\debugger\ST\STM32F7xx_TRACE.dmac" 
+
+--flash_loader="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\config\flashloader\ST\FlashSTM32F76xxI.board" 
+
+
+
+

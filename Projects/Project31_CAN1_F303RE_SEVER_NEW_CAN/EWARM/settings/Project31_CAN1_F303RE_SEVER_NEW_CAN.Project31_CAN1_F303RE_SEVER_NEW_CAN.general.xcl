@@ -1,0 +1,15 @@
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armPROC.dll" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armSTLINK.dll" 
+
+"C:\Users\sebastian.cioata\Documents\Internship 2021\Projects\Project31_CAN1_F303RE_SEVER_NEW_CAN\EWARM\Project31_CAN1_F303RE_SEVER_NEW_CAN\Exe\Project31_CAN1_F303RE_SEVER_NEW_CAN.out" 
+
+--plugin="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armbat.dll" 
+
+--device_macro="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\config\debugger\ST\STM32F3xx.dmac" 
+
+--flash_loader="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\config\flashloader\ST\FlashSTM32F3xxxE.board" 
+
+
+
+
