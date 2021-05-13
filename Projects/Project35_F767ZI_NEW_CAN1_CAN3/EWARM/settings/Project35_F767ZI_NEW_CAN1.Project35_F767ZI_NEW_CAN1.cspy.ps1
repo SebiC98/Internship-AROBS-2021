@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project35_F767ZI_NEW_CAN1\EWARM\settings\Project35_F767ZI_NEW_CAN1.Project35_F767ZI_NEW_CAN1.general.xcl" --backend -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project35_F767ZI_NEW_CAN1\EWARM\settings\Project35_F767ZI_NEW_CAN1.Project35_F767ZI_NEW_CAN1.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project35_F767ZI_NEW_CAN1_CAN3\EWARM\settings\Project35_F767ZI_NEW_CAN1.Project35_F767ZI_NEW_CAN1.general.xcl" --backend -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project35_F767ZI_NEW_CAN1_CAN3\EWARM\settings\Project35_F767ZI_NEW_CAN1.Project35_F767ZI_NEW_CAN1.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project35_F767ZI_NEW_CAN1\EWARM\settings\Project35_F767ZI_NEW_CAN1.Project35_F767ZI_NEW_CAN1.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project35_F767ZI_NEW_CAN1\EWARM\settings\Project35_F767ZI_NEW_CAN1.Project35_F767ZI_NEW_CAN1.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project35_F767ZI_NEW_CAN1_CAN3\EWARM\settings\Project35_F767ZI_NEW_CAN1.Project35_F767ZI_NEW_CAN1.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project35_F767ZI_NEW_CAN1_CAN3\EWARM\settings\Project35_F767ZI_NEW_CAN1.Project35_F767ZI_NEW_CAN1.driver.xcl" 
 }

@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project35_F767ZI_NEW_CAN1\EWARM\settings\Project35_F767ZI_NEW_CAN1.Project35_F767ZI_NEW_CAN1.general.xcl" --backend -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project35_F767ZI_NEW_CAN1\EWARM\settings\Project35_F767ZI_NEW_CAN1.Project35_F767ZI_NEW_CAN1.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project35_F767ZI_NEW_CAN1_CAN3\EWARM\settings\Project35_F767ZI_NEW_CAN1.Project35_F767ZI_NEW_CAN1.general.xcl" --backend -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project35_F767ZI_NEW_CAN1_CAN3\EWARM\settings\Project35_F767ZI_NEW_CAN1.Project35_F767ZI_NEW_CAN1.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project35_F767ZI_NEW_CAN1\EWARM\settings\Project35_F767ZI_NEW_CAN1.Project35_F767ZI_NEW_CAN1.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project35_F767ZI_NEW_CAN1\EWARM\settings\Project35_F767ZI_NEW_CAN1.Project35_F767ZI_NEW_CAN1.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project35_F767ZI_NEW_CAN1_CAN3\EWARM\settings\Project35_F767ZI_NEW_CAN1.Project35_F767ZI_NEW_CAN1.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project35_F767ZI_NEW_CAN1_CAN3\EWARM\settings\Project35_F767ZI_NEW_CAN1.Project35_F767ZI_NEW_CAN1.driver.xcl" 
 
 @echo off 
 :end
