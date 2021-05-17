@@ -1,0 +1,523 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  17/May/2021  11:09:52
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Exe\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING.out
+#    Map file     =
+#        C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\List\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING.map
+#    Command line =
+#        -f "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Exe\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING.out.rsp"
+#        ("C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Application\User\Core\main.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Application\EWARM\startup_stm32f767xx.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Drivers\STM32F7xx_HAL_Driver\stm32f7xx_hal.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Drivers\STM32F7xx_HAL_Driver\stm32f7xx_hal_can.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Drivers\STM32F7xx_HAL_Driver\stm32f7xx_hal_cortex.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Drivers\STM32F7xx_HAL_Driver\stm32f7xx_hal_dma.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Drivers\STM32F7xx_HAL_Driver\stm32f7xx_hal_dma_ex.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Drivers\STM32F7xx_HAL_Driver\stm32f7xx_hal_exti.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Drivers\STM32F7xx_HAL_Driver\stm32f7xx_hal_flash.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Drivers\STM32F7xx_HAL_Driver\stm32f7xx_hal_flash_ex.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Drivers\STM32F7xx_HAL_Driver\stm32f7xx_hal_gpio.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Drivers\STM32F7xx_HAL_Driver\stm32f7xx_hal_i2c.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Drivers\STM32F7xx_HAL_Driver\stm32f7xx_hal_i2c_ex.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Application\User\Core\stm32f7xx_hal_msp.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Drivers\STM32F7xx_HAL_Driver\stm32f7xx_hal_pwr.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Drivers\STM32F7xx_HAL_Driver\stm32f7xx_hal_pwr_ex.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Drivers\STM32F7xx_HAL_Driver\stm32f7xx_hal_rcc.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Drivers\STM32F7xx_HAL_Driver\stm32f7xx_hal_rcc_ex.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Drivers\STM32F7xx_HAL_Driver\stm32f7xx_hal_tim.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Drivers\STM32F7xx_HAL_Driver\stm32f7xx_hal_tim_ex.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Application\User\Core\stm32f7xx_it.o"
+#        "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Drivers\CMSIS\system_stm32f7xx.o"
+#        --no_out_extension -o "C:\Users\sebastian.cioata\Documents\Internship
+#        AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Exe\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING.out"
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\List\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING.map"
+#        --config "C:\Users\sebastian.cioata\Documents\Internship AROBS
+#        2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM/stm32f767xx_flash.icf"
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x81f'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2007'ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x1f8
+  .intvec            ro code   0x800'0000   0x1f8  startup_stm32f767xx.o [1]
+                             - 0x800'01f8   0x1f8
+
+"P1":                                      0x17f8
+  .text              ro code   0x800'01f8   0x69c  stm32f7xx_hal_can.o [4]
+  .text              ro code   0x800'0894   0x130  stm32f7xx_hal_msp.o [2]
+  .text              ro code   0x800'09c4     0xc  stm32f7xx_hal.o [4]
+  .text              ro code   0x800'09d0     0x2  stm32f7xx_hal_can.o [4]
+  .text              ro code   0x800'09d2     0x2  stm32f7xx_hal_can.o [4]
+  .text              ro code   0x800'09d4     0x2  stm32f7xx_hal_can.o [4]
+  .text              ro code   0x800'09d6     0x2  stm32f7xx_hal_can.o [4]
+  .text              ro code   0x800'09d8     0x2  stm32f7xx_hal_can.o [4]
+  .text              ro code   0x800'09da     0x2  stm32f7xx_hal_can.o [4]
+  .text              ro code   0x800'09dc     0x2  stm32f7xx_hal_can.o [4]
+  .text              ro code   0x800'09de     0x2  stm32f7xx_hal_can.o [4]
+  .text              ro code   0x800'09e0     0x2  stm32f7xx_hal_can.o [4]
+  .text              ro code   0x800'09e2     0x2  stm32f7xx_hal_can.o [4]
+  .text              ro code   0x800'09e4     0x2  stm32f7xx_hal_can.o [4]
+  .text              ro code   0x800'09e6     0x2  stm32f7xx_hal_can.o [4]
+  .text              ro code   0x800'09e8     0x2  stm32f7xx_hal_can.o [4]
+  .text              ro code   0x800'09ea    0x14  memset.o [7]
+  .text              ro code   0x800'09fe    0x2a  copy_init3.o [7]
+  .text              ro code   0x800'0a28    0xc4  stm32f7xx_hal_cortex.o [4]
+  .text              ro code   0x800'0aec   0x1f4  stm32f7xx_hal_gpio.o [4]
+  .text              ro code   0x800'0ce0    0x66  ABImemset.o [7]
+  .text              ro code   0x800'0d48   0x4ac  stm32f7xx_hal_rcc.o [4]
+  .text              ro code   0x800'11f4    0x40  stm32f7xx_hal.o [4]
+  .text              ro code   0x800'1234   0x106  I64DivMod_small.o [7]
+  .text              ro code   0x800'133c     0x2  I64DivZer.o [7]
+  .text              ro code   0x800'1340   0x294  main.o [2]
+  .text              ro code   0x800'15d4    0x16  stm32f7xx_hal.o [4]
+  .text              ro code   0x800'15ec    0x28  stm32f7xx_hal.o [4]
+  .text              ro code   0x800'1614    0xcc  stm32f7xx_it.o [2]
+  .text              ro code   0x800'16e0    0x10  stm32f7xx_hal.o [4]
+  .text              ro code   0x800'16f0    0x38  zero_init3.o [7]
+  .text              ro code   0x800'1728    0x2c  system_stm32f7xx.o [3]
+  .text              ro code   0x800'1754    0x28  data_init.o [7]
+  .text              ro code   0x800'177c    0x22  fpinit_M.o [6]
+  .iar.init_table    const     0x800'17a0    0x24  - Linker created -
+  .text              ro code   0x800'17c4    0x1e  cmain.o [7]
+  .text              ro code   0x800'17e2     0x4  low_level_init.o [5]
+  .text              ro code   0x800'17e6     0x4  exit.o [5]
+  .text              ro code   0x800'17ec     0xa  cexit.o [7]
+  .text              ro code   0x800'17f8    0x14  exit.o [8]
+  .text              ro code   0x800'180c    0x1c  cstartup_M.o [7]
+  .text              ro code   0x800'1828    0x10  startup_stm32f767xx.o [1]
+  Initializer bytes  const     0x800'1838    0x10  <for P2-1>
+  .text              ro code   0x800'1848     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'184c     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1850     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1854     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1858     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'185c     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1860     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1864     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1868     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'186c     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1870     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1874     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1878     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'187c     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1880     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1884     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1888     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'188c     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1890     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1894     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1898     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'189c     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18a0     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18a4     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18a8     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18ac     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18b0     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18b4     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18b8     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18bc     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18c0     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18c4     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18c8     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18cc     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18d0     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18d4     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18d8     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18dc     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18e0     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18e4     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18e8     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18ec     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18f0     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18f4     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18f8     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'18fc     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1900     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1904     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1908     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'190c     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1910     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1914     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1918     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'191c     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1920     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1924     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1928     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'192c     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1930     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1934     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1938     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'193c     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1940     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1944     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1948     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'194c     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1950     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1954     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1958     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'195c     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1960     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1964     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1968     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'196c     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1970     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1974     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1978     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'197c     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1980     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1984     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1988     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'198c     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1990     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1994     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'1998     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'199c     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'19a0     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'19a4     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'19a8     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'19ac     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'19b0     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'19b4     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'19b8     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'19bc     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'19c0     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'19c4     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'19c8     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'19cc     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'19d0     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'19d4     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'19d8     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'19dc     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'19e0     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'19e4     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'19e8     0x4  startup_stm32f767xx.o [1]
+  .text              ro code   0x800'19ec     0x4  startup_stm32f767xx.o [1]
+  .rodata            const     0x800'19f0     0x0  zero_init3.o [7]
+  .rodata            const     0x800'19f0     0x0  copy_init3.o [7]
+                             - 0x800'19f0  0x17f8
+
+"P2", part 1 of 3:                           0x10
+  P2-1                        0x2000'0000    0x10  <Init block>
+    .data            inited   0x2000'0000     0xc  stm32f7xx_hal.o [4]
+    .data            inited   0x2000'000c     0x4  system_stm32f7xx.o [3]
+                            - 0x2000'0010    0x10
+
+"P2", part 2 of 3:                          0x1c8
+  .bss               zero     0x2000'0010   0x16c  main.o [2]
+  .bss               zero     0x2000'017c    0x1c  main.o [2]
+  .bss               zero     0x2000'0198    0x1c  main.o [2]
+  .bss               zero     0x2000'01b4     0x8  main.o [2]
+  .bss               zero     0x2000'01bc     0x8  main.o [2]
+  .bss               zero     0x2000'01c4     0x8  main.o [2]
+  .bss               zero     0x2000'01cc     0x8  main.o [2]
+  .bss               zero     0x2000'01d4     0x4  stm32f7xx_hal_msp.o [2]
+                            - 0x2000'01d8   0x1c8
+
+"P2", part 3 of 3:                          0x400
+  CSTACK                      0x2000'01d8   0x400  <Block>
+    CSTACK           uninit   0x2000'01d8   0x400  <Block tail>
+                            - 0x2000'05d8   0x400
+
+Unused ranges:
+
+         From           To       Size
+         ----           --       ----
+   0x800'19f0   0x81f'ffff  0x1f'e610
+  0x2000'05d8  0x2007'ffff   0x7'fa28
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x1c8:
+          0x2000'0010  0x1c8
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x10:
+           0x800'1838   0x10
+    1 destination range, total size 0x10:
+          0x2000'0000   0x10
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Application\EWARM: [1]
+    startup_stm32f767xx.o       944
+    -------------------------------------------------
+    Total:                      944
+
+C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Application\User\Core: [2]
+    main.o                      660               452
+    stm32f7xx_hal_msp.o         304                 4
+    stm32f7xx_it.o              204
+    -------------------------------------------------
+    Total:                    1'168               456
+
+C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Drivers\CMSIS: [3]
+    system_stm32f7xx.o           44        4        4
+    -------------------------------------------------
+    Total:                       44        4        4
+
+C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Drivers\STM32F7xx_HAL_Driver: [4]
+    stm32f7xx_hal.o             154       12       12
+    stm32f7xx_hal_can.o       1'718
+    stm32f7xx_hal_cortex.o      196
+    stm32f7xx_hal_gpio.o        500
+    stm32f7xx_hal_rcc.o       1'196
+    -------------------------------------------------
+    Total:                    3'764       12       12
+
+dl7M_tln.a: [5]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+m7M_tlv.a: [6]
+    fpinit_M.o                   34
+    -------------------------------------------------
+    Total:                       34
+
+rt7M_tl.a: [7]
+    ABImemset.o                 102
+    I64DivMod_small.o           262
+    I64DivZer.o                   2
+    cexit.o                      10
+    cmain.o                      30
+    copy_init3.o                 42
+    cstartup_M.o                 28
+    data_init.o                  40
+    memset.o                     20
+    zero_init3.o                 56
+    -------------------------------------------------
+    Total:                      592
+
+shb_l.a: [8]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         12        2
+    Linker created                        36    1'024
+-----------------------------------------------------
+    Grand Total:              6'586       54    1'496
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'17a0          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'17c4          --   Gb  - Linker created -
+?main                    0x800'17c5         Code  Gb  cmain.o [7]
+AHBPrescTable            0x800'1744   0x10  Data  Gb  system_stm32f7xx.o [3]
+BusFault_Handler         0x800'161b    0x2  Code  Gb  stm32f7xx_it.o [2]
+CAN1_RX0_IRQHandler      0x800'1629   0x40  Code  Gb  stm32f7xx_it.o [2]
+CAN3_RX0_IRQHandler      0x800'1669   0x3c  Code  Gb  stm32f7xx_it.o [2]
+CSTACK$$Base            0x2000'01d8          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'05d8          --   Gb  - Linker created -
+DebugMon_Handler         0x800'1621    0x2  Code  Gb  stm32f7xx_it.o [2]
+Error_Handler            0x800'15d1    0x4  Code  Gb  main.o [2]
+HAL_CAN_ActivateNotification
+                         0x800'0677   0x14  Code  Gb  stm32f7xx_hal_can.o [4]
+HAL_CAN_AddTxMessage     0x800'0495   0xd0  Code  Gb  stm32f7xx_hal_can.o [4]
+HAL_CAN_ConfigFilter     0x800'0319   0xf6  Code  Gb  stm32f7xx_hal_can.o [4]
+HAL_CAN_ErrorCallback    0x800'09e9    0x2  Code  Gb  stm32f7xx_hal_can.o [4]
+HAL_CAN_GetRxMessage     0x800'0573  0x104  Code  Gb  stm32f7xx_hal_can.o [4]
+HAL_CAN_IRQHandler       0x800'069d  0x1f8  Code  Gb  stm32f7xx_hal_can.o [4]
+HAL_CAN_Init             0x800'01f9  0x120  Code  Gb  stm32f7xx_hal_can.o [4]
+HAL_CAN_MspInit          0x800'08c1   0xb0  Code  Gb  stm32f7xx_hal_msp.o [2]
+HAL_CAN_RxFifo0FullCallback
+                         0x800'09dd    0x2  Code  Gb  stm32f7xx_hal_can.o [4]
+HAL_CAN_RxFifo0MsgPendingCallback
+                         0x800'09df    0x2  Code  Gb  stm32f7xx_hal_can.o [4]
+HAL_CAN_RxFifo1FullCallback
+                         0x800'09e1    0x2  Code  Gb  stm32f7xx_hal_can.o [4]
+HAL_CAN_RxFifo1MsgPendingCallback
+                         0x800'09e3    0x2  Code  Gb  stm32f7xx_hal_can.o [4]
+HAL_CAN_SleepCallback    0x800'09e5    0x2  Code  Gb  stm32f7xx_hal_can.o [4]
+HAL_CAN_Start            0x800'042f   0x4c  Code  Gb  stm32f7xx_hal_can.o [4]
+HAL_CAN_TxMailbox0AbortCallback
+                         0x800'09d3    0x2  Code  Gb  stm32f7xx_hal_can.o [4]
+HAL_CAN_TxMailbox0CompleteCallback
+                         0x800'09d1    0x2  Code  Gb  stm32f7xx_hal_can.o [4]
+HAL_CAN_TxMailbox1AbortCallback
+                         0x800'09d7    0x2  Code  Gb  stm32f7xx_hal_can.o [4]
+HAL_CAN_TxMailbox1CompleteCallback
+                         0x800'09d5    0x2  Code  Gb  stm32f7xx_hal_can.o [4]
+HAL_CAN_TxMailbox2AbortCallback
+                         0x800'09db    0x2  Code  Gb  stm32f7xx_hal_can.o [4]
+HAL_CAN_TxMailbox2CompleteCallback
+                         0x800'09d9    0x2  Code  Gb  stm32f7xx_hal_can.o [4]
+HAL_CAN_WakeUpFromRxMsgCallback
+                         0x800'09e7    0x2  Code  Gb  stm32f7xx_hal_can.o [4]
+HAL_Delay                0x800'15ed   0x28  Code  Gb  stm32f7xx_hal.o [4]
+HAL_GPIO_Init            0x800'0aed  0x1be  Code  Gb  stm32f7xx_hal_gpio.o [4]
+HAL_GetTick              0x800'09c5    0xc  Code  Gb  stm32f7xx_hal.o [4]
+HAL_IncTick              0x800'16e1   0x10  Code  Gb  stm32f7xx_hal.o [4]
+HAL_Init                 0x800'15d5   0x16  Code  Gb  stm32f7xx_hal.o [4]
+HAL_InitTick             0x800'11f5   0x40  Code  Gb  stm32f7xx_hal.o [4]
+HAL_MspInit              0x800'0895   0x2c  Code  Gb  stm32f7xx_hal_msp.o [2]
+HAL_NVIC_EnableIRQ       0x800'0a97   0x16  Code  Gb  stm32f7xx_hal_cortex.o [4]
+HAL_NVIC_SetPriority     0x800'0a5d   0x3a  Code  Gb  stm32f7xx_hal_cortex.o [4]
+HAL_NVIC_SetPriorityGrouping
+                         0x800'0a43   0x1a  Code  Gb  stm32f7xx_hal_cortex.o [4]
+HAL_RCC_CAN1_CLK_ENABLED
+                        0x2000'01d4    0x4  Data  Lc  stm32f7xx_hal_msp.o [2]
+HAL_RCC_ClockConfig      0x800'107d   0xf8  Code  Gb  stm32f7xx_hal_rcc.o [4]
+HAL_RCC_GetSysClockFreq
+                         0x800'118f   0x4a  Code  Gb  stm32f7xx_hal_rcc.o [4]
+HAL_RCC_OscConfig        0x800'0d49  0x334  Code  Gb  stm32f7xx_hal_rcc.o [4]
+HAL_SYSTICK_Config       0x800'0aad   0x28  Code  Gb  stm32f7xx_hal_cortex.o [4]
+HardFault_Handler        0x800'1617    0x2  Code  Gb  stm32f7xx_it.o [2]
+MemManage_Handler        0x800'1619    0x2  Code  Gb  stm32f7xx_it.o [2]
+NMI_Handler              0x800'1615    0x2  Code  Gb  stm32f7xx_it.o [2]
+PendSV_Handler           0x800'1623    0x2  Code  Gb  stm32f7xx_it.o [2]
+Region$$Table$$Base      0x800'17a0          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'17c4          --   Gb  - Linker created -
+SVC_Handler              0x800'161f    0x2  Code  Gb  stm32f7xx_it.o [2]
+SysTick_Handler          0x800'1625    0x4  Code  Gb  stm32f7xx_it.o [2]
+SystemClock_Config       0x800'1535   0x84  Code  Gb  main.o [2]
+SystemCoreClock         0x2000'000c    0x4  Data  Gb  system_stm32f7xx.o [3]
+SystemInit               0x800'1729   0x16  Code  Gb  system_stm32f7xx.o [3]
+UsageFault_Handler       0x800'161d    0x2  Code  Gb  stm32f7xx_it.o [2]
+__NVIC_SetPriority       0x800'0a29   0x1a  Code  Lc  stm32f7xx_hal_cortex.o [4]
+__aeabi_ldiv0            0x800'133d         Code  Gb  I64DivZer.o [7]
+__aeabi_memset           0x800'0ce1         Code  Gb  ABImemset.o [7]
+__cmain                  0x800'17c5         Code  Gb  cmain.o [7]
+__exit                   0x800'17f9   0x14  Code  Gb  exit.o [8]
+__iar_Memset             0x800'0ce1         Code  Gb  ABImemset.o [7]
+__iar_Memset_word        0x800'0ce9         Code  Gb  ABImemset.o [7]
+__iar_copy_init3         0x800'09ff   0x2a  Code  Gb  copy_init3.o [7]
+__iar_data_init3         0x800'1755   0x28  Code  Gb  data_init.o [7]
+__iar_init_vfp           0x800'177d         Code  Gb  fpinit_M.o [6]
+__iar_program_start      0x800'180d         Code  Gb  cstartup_M.o [7]
+__iar_small_uldivmod     0x800'1235         Code  Gb  I64DivMod_small.o [7]
+__iar_zero_init3         0x800'16f1   0x38  Code  Gb  zero_init3.o [7]
+__low_level_init         0x800'17e3    0x4  Code  Gb  low_level_init.o [5]
+__vector_table           0x800'0000         Data  Gb  startup_stm32f767xx.o [1]
+_call_main               0x800'17d1         Code  Gb  cmain.o [7]
+_exit                    0x800'17ed         Code  Gb  cexit.o [7]
+checkKeyFromSergiu      0x2000'0158    0x1  Data  Gb  main.o [2]
+exit                     0x800'17e7    0x4  Code  Gb  exit.o [5]
+hcan1                   0x2000'0060   0x28  Data  Gb  main.o [2]
+hcan3                   0x2000'0088   0x28  Data  Gb  main.o [2]
+main                     0x800'1341  0x1f4  Code  Gb  main.o [2]
+memset                   0x800'09eb   0x14  Code  Gb  memset.o [7]
+messageFromAndrei       0x2000'0168    0x8  Data  Gb  main.o [2]
+messageFromBolaj        0x2000'0174    0x8  Data  Gb  main.o [2]
+messageFromIulia        0x2000'01cc    0x8  Data  Gb  main.o [2]
+messageFromNico         0x2000'01c4    0x8  Data  Gb  main.o [2]
+messageFromSergiu       0x2000'0160    0x8  Data  Gb  main.o [2]
+pRx3Header              0x2000'0198   0x1c  Data  Gb  main.o [2]
+pRxHeader               0x2000'017c   0x1c  Data  Gb  main.o [2]
+pTx3Header              0x2000'00f8   0x18  Data  Gb  main.o [2]
+pTx3Mailbox             0x2000'0170    0x4  Data  Gb  main.o [2]
+pTxHeader               0x2000'00b0   0x18  Data  Gb  main.o [2]
+pTxHeaderAndrei         0x2000'00e0   0x18  Data  Gb  main.o [2]
+pTxHeaderBolaj          0x2000'0110   0x18  Data  Gb  main.o [2]
+pTxHeaderIulia          0x2000'0140   0x18  Data  Gb  main.o [2]
+pTxHeaderNico           0x2000'0128   0x18  Data  Gb  main.o [2]
+pTxHeaderSergiu         0x2000'00c8   0x18  Data  Gb  main.o [2]
+pTxMailbox              0x2000'015c    0x4  Data  Gb  main.o [2]
+r                       0x2000'01b4    0x8  Data  Gb  main.o [2]
+r3                      0x2000'01bc    0x8  Data  Gb  main.o [2]
+s3FilterConfig          0x2000'0038   0x28  Data  Gb  main.o [2]
+sFilterConfig           0x2000'0010   0x28  Data  Gb  main.o [2]
+uwTick                  0x2000'0004    0x4  Data  Gb  stm32f7xx_hal.o [4]
+uwTickFreq              0x2000'0000    0x1  Data  Gb  stm32f7xx_hal.o [4]
+uwTickPrio              0x2000'0008    0x4  Data  Gb  stm32f7xx_hal.o [4]
+
+
+[1] = C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Application\EWARM
+[2] = C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Application\User\Core
+[3] = C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Drivers\CMSIS
+[4] = C:\Users\sebastian.cioata\Documents\Internship AROBS 2021\Projects\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\EWARM\Project38_F767ZI_CAN1_CAN3_SIGNAL_ROUTING\Obj\Drivers\STM32F7xx_HAL_Driver
+[5] = dl7M_tln.a
+[6] = m7M_tlv.a
+[7] = rt7M_tl.a
+[8] = shb_l.a
+
+  6'586 bytes of readonly  code memory
+     54 bytes of readonly  data memory
+  1'496 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
